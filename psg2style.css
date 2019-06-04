@@ -1,0 +1,191 @@
+:root {
+	--color-dark: #130f40;
+	--color-normal: #4834d4;
+	--color-light: #686de0;
+	--color-soft-light: #dff9fb;
+	--color-idark: #402f0f;
+	--color-inormal: #f0932b;
+	--color-ilight: #ffbe76;
+	--color-isoft-light: #f6e58d;
+}
+
+body {
+	padding-bottom: 60px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+section.aboutsg a {
+	color: var(--color-normal);
+	transition: .3s;
+}
+
+section.aboutsg a:hover {
+	text-shadow: 0px 0px 1px var(--color-dark);
+	text-decoration: none;
+}
+
+footer a {
+	color: var(--color-ilight);
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: var(--color-inormal);
+	text-decoration: none;
+}
+
+.jumbotron {
+	background-color: var(--color-soft-light) !important;
+}
+
+.bg-grey {
+	background-color: var(--color-soft-light) !important;
+}
+
+.aboutpsg h1 {
+	transform: translate(0px, -55px);
+	opacity: 0;
+	text-transform: uppercase;
+	transition: .3s;
+}
+
+.bg-dark {
+	background-color: var(--color-dark) !important;
+}
+
+.navbar {
+	box-shadow: -1px -1px 3px rgba(0, 0, 0, 0.2);
+}
+
+p.description span {
+	display: none;
+}
+
+.blog-pager {
+	visibility: hidden;
+}
+
+.logo {
+	width: 30%;
+	max-width: 250px;
+}
+
+.title {
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, .5);
+}
+
+.lead {
+	margin: auto;
+	min-width: 200px;
+	max-width: 400px;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, .5);
+	background: rgba(37, 37, 37, 0.5)
+}
+
+.card-header a {
+	text-decoration: none;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+
+.judul {
+	opacity: 0;
+	transform: translate(0px, -20px);
+	transition: .3s;
+	color: var(--color-dark) !important;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.judultambahan {
+	opacity: 1 !important;
+	transform: translate(0px, 0px) !important;
+}
+
+.post-body {
+	transform: translate(0px, 100px) !important;
+	opacity: 0;
+	transition: .3s;
+}
+
+.post-tambahan {
+	transform: translate(0px, 0px) !important;
+	opacity: 1;
+}
+
+hr {
+	min-width: 20%;
+	max-width: 350px;
+	border-top: 2px solid var(--color-light);
+}
+
+
+div.card:hover {
+	box-shadow: 0px 0px 10px var(--color-light);
+	transform: scale(1.03, 1.03);
+	z-index: 3000;
+}
+
+section {
+	min-height: 450px;
+}
+
+section h1 {
+	text-transform: uppercase;
+	color: var(--color-dark);
+}
+
+div.card {
+	max-width: 15rem;
+	margin: 8px;
+	padding: 0px;
+	transition: .3s;
+}
+
+.card-img-top {
+	opacity: .5;
+}
+
+.card-header {
+	height: 290px;
+	overflow: hidden;
+}
+
+.card-text {
+	height: 46px;
+	overflow: hidden;
+}
+
+footer {
+	bottom: 0;
+	min-height: 70px;
+	width: 100%;
+}
+
+#psgCarousel {
+	height: 328 !important;
+}
+
+.carousel-inner {
+	min-height: 312px;
+	;
+	position: relative;
+}
+
+.carousel-caption {
+	top: -5px;
+	opacity: .20;
+	animation: logos .7s forwards;
+}
+
+@keyframes logos {
+	0% {
+		opacity: 0;
+		top: -10px;
+	}
+
+	100% {
+		opacity: 100;
+		top: -0px;
+	}
+}
