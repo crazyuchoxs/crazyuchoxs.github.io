@@ -1,0 +1,11 @@
+_layouts/test*
+_site
+
+node_modules
+
+.swp
+Gemfile.lock
+test/
+autoupdate*
+serve*
+yarn.lock
